@@ -2984,7 +2984,7 @@
 </EXIT>
 </SEQUENCE>
 
-<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="((%/erpInvoiceAmount%!=%/Amount%))" FORM="IF">
+<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="((%/result%!=%/Amount%))" FORM="IF">
 
   <!-- nodes -->
 
