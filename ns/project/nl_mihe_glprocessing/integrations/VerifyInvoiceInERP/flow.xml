@@ -2866,7 +2866,11 @@
 </EXIT>
 </SEQUENCE>
 
-<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="((%/getInvoiceERPOutput/results/amount_1%!=%/Amount%))" FORM="IF">
+<INVOKE NAME="String" SERVICE="pub.string:objectToString">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="(('amount_1[0]'!=%/Amount%))" FORM="IF">
 
   <!-- nodes -->
 
@@ -3092,6 +3096,17 @@
         <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">string</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -3369,6 +3384,17 @@
         <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">string</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
     </array>
     <value name="modifiable">true</value>
