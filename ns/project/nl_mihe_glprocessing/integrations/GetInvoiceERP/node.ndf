@@ -97,7 +97,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jan.van.der.Lugt@ibm.com</value>
-    <value name="lastModifiedDate">1775842566090</value>
+    <value name="lastModifiedDate">1775842836728</value>
     <value name="displayName">GetInvoiceERP</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -123,11 +123,11 @@
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database_2</value>
+          <value name="connectionName">Database_3</value>
           <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2</value>
+        <value name="connectionNSName">project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_3</value>
         <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
