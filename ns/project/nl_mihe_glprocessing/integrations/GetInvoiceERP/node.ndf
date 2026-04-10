@@ -131,7 +131,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jan.van.der.Lugt@ibm.com</value>
-    <value name="lastModifiedDate">1775844016680</value>
+    <value name="lastModifiedDate">1775844254881</value>
     <value name="displayName">GetInvoiceERP</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -291,7 +291,7 @@
       <record name="/4" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">5</number>
+        <number name="ui_step_index" type="Long">7</number>
         <value name="nodePathNew">4</value>
         <number name="nodeIndex" type="Long">4</number>
         <number name="lineNumberForDebug" type="Long">7</number>
