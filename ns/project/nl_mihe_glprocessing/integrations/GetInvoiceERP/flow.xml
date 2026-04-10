@@ -139,6 +139,15 @@
 </MAP>
 </INVOKE>
 
+<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="((%/getInvoiceERPOutput/results%==''))" FORM="IF">
+
+  <!-- nodes -->
+
+<EXIT NAME="EXIT" FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Invoice not found">
+  <COMMENT></COMMENT>
+</EXIT>
+</SEQUENCE>
+
 <MAP NAME="TRANSFORM" TIMEOUT="" MODE="STANDALONE">
   <MAPTARGET>
 
