@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: NL_MIHE_GLProcessingProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.integrations:processTransactionRecord
+    type: flow
+    stepId: /3
+    reference: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.WmPackageServiceProvider.project.nl_mihe_glprocessing.integrations:VerifyInvoiceInERP
