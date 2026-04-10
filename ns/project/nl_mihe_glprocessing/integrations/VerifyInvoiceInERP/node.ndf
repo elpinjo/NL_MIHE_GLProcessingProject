@@ -148,7 +148,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jan.van.der.Lugt@ibm.com</value>
-    <value name="lastModifiedDate">1775840094222</value>
+    <value name="lastModifiedDate">1775840138780</value>
     <value name="displayName">VerifyInvoiceInERP</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -397,6 +397,26 @@
       </record>
       <null name="/7/0"/>
       <record name="/8" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">11</number>
+        <value name="nodePathNew">8</value>
+        <number name="nodeIndex" type="Long">8</number>
+        <number name="lineNumberForDebug" type="Long">11</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/9" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -414,7 +434,7 @@
         <number name="lineNumberForDebug" type="Long">11</number>
         <value name="nodePathForDebug">7</value>
       </record>
-      <record name="/8/0" javaclass="com.wm.util.Values">
+      <record name="/9/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">11</number>
@@ -433,9 +453,9 @@
         </array>
         <value name="nodePathForDebug">7.0</value>
       </record>
-      <null name="/8/0/0"/>
-      <null name="/8/0/1"/>
-      <record name="/8/1" javaclass="com.wm.util.Values">
+      <null name="/9/0/0"/>
+      <null name="/9/0/1"/>
+      <record name="/9/1" javaclass="com.wm.util.Values">
         <value name="name">EXIT</value>
         <value name="itemType">CONTROLS</value>
         <value name="nodePathNew">8.1</value>
@@ -443,7 +463,7 @@
         <number name="lineNumberForDebug" type="Long">13</number>
         <value name="nodePathForDebug">7.1</value>
       </record>
-      <record name="/9" javaclass="com.wm.util.Values">
+      <record name="/10" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -461,7 +481,7 @@
         <number name="lineNumberForDebug" type="Long">14</number>
         <value name="nodePathForDebug">8</value>
       </record>
-      <record name="/9/0" javaclass="com.wm.util.Values">
+      <record name="/10/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">14</number>
@@ -480,9 +500,9 @@
         </array>
         <value name="nodePathForDebug">8.0</value>
       </record>
-      <null name="/9/0/0"/>
-      <null name="/9/0/1"/>
-      <record name="/9/1" javaclass="com.wm.util.Values">
+      <null name="/10/0/0"/>
+      <null name="/10/0/1"/>
+      <record name="/10/1" javaclass="com.wm.util.Values">
         <value name="name">EXIT</value>
         <value name="itemType">CONTROLS</value>
         <value name="nodePathNew">8.1</value>
@@ -490,7 +510,7 @@
         <number name="lineNumberForDebug" type="Long">15</number>
         <value name="nodePathForDebug">8.1</value>
       </record>
-      <record name="/10" javaclass="com.wm.util.Values">
+      <record name="/11" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -508,7 +528,7 @@
         <number name="lineNumberForDebug" type="Long">16</number>
         <value name="nodePathForDebug">9</value>
       </record>
-      <record name="/10/0" javaclass="com.wm.util.Values">
+      <record name="/11/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">17</number>
@@ -527,14 +547,14 @@
         </array>
         <value name="nodePathForDebug">9.0</value>
       </record>
-      <null name="/10/0/0"/>
-      <null name="/10/0/1"/>
-      <record name="/10/1" javaclass="com.wm.util.Values">
+      <null name="/11/0/0"/>
+      <null name="/11/0/1"/>
+      <record name="/11/1" javaclass="com.wm.util.Values">
         <value name="name">EXIT</value>
         <value name="itemType">CONTROLS</value>
         <value name="nodePathForDebug">9.1</value>
       </record>
-      <record name="/11" javaclass="com.wm.util.Values">
+      <record name="/12" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
         <value name="nodePathForDebug">10</value>
