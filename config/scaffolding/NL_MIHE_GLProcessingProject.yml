@@ -7,9 +7,6 @@ packages:
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
   gitBranch: main
-- name: WmJDBCAdapter
-  wpmServer: https://packages.webmethods.io
-  wpmRegistry: licensed
 services:
 - serviceName: project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
@@ -40,49 +37,49 @@ services:
   - name: WmPublic
     version: 12.1.0.0.810
 configurationVariables:
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
+  : MySQL
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
   : "1"
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
   : "3306"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
-  : erp
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
-  : "false"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
-  : "10"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
-  : "1000"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.trustStore
-  : ""
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
-  : ""
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
-  : "0"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
-  : integration
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
-  : "10"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
-  : MySQL
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
   : mysql.vm
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
+  : "10"
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
   : "true"
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
   : loginTimeout=60;
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
+  : "1000"
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
   : "1"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
-  : "0"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
-  : "1000"
-  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
-  : "{AES}8pfi5ehMdCjO445vlS35QQ=="
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
+  : erp
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.trustStore
+  : ""
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
+  : ""
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
   : MySQLDriverGroup
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
+  : "false"
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
   : NO_TRANSACTION
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
+  : integration
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
+  : "1000"
   ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
   : ""
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.NL_MIHE_GLProcessingProject.project.nl_mihe_glprocessing.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
+  : "{AES}8pfi5ehMdCjO445vlS35QQ=="
