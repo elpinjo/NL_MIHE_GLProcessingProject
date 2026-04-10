@@ -148,7 +148,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jan.van.der.Lugt@ibm.com</value>
-    <value name="lastModifiedDate">1775839090178</value>
+    <value name="lastModifiedDate">1775839651440</value>
     <value name="displayName">VerifyInvoiceInERP</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -363,7 +363,8 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <null name="mapSet"/>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
         <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
@@ -424,24 +425,6 @@
         <value name="nodePathForDebug">7.1</value>
       </record>
       <record name="/8" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">String</value>
-          <value name="groupName">string</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">objectToString</value>
-          <value name="serviceName">pub.string:objectToString</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <number name="ui_step_index" type="Long">13</number>
-        <value name="nodePathNew">8</value>
-        <number name="nodeIndex" type="Long">8</number>
-        <number name="lineNumberForDebug" type="Long">13</number>
-      </record>
-      <record name="/9" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -454,12 +437,12 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <value name="nodePathNew">9</value>
-        <number name="nodeIndex" type="Long">9</number>
-        <number name="lineNumberForDebug" type="Long">14</number>
-        <value name="nodePathForDebug">8</value>
+        <value name="nodePathNew">8</value>
+        <number name="nodeIndex" type="Long">8</number>
+        <number name="lineNumberForDebug" type="Long">13</number>
+        <value name="nodePathForDebug">9</value>
       </record>
-      <record name="/9/0" javaclass="com.wm.util.Values">
+      <record name="/8/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">14</number>
@@ -476,19 +459,19 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">8.0</value>
+        <value name="nodePathForDebug">9.0</value>
       </record>
-      <null name="/9/0/0"/>
-      <null name="/9/0/1"/>
-      <record name="/9/1" javaclass="com.wm.util.Values">
+      <null name="/8/0/0"/>
+      <null name="/8/0/1"/>
+      <record name="/8/1" javaclass="com.wm.util.Values">
         <value name="name">EXIT</value>
         <value name="itemType">CONTROLS</value>
         <value name="nodePathNew">8.1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">15</number>
-        <value name="nodePathForDebug">8.1</value>
+        <value name="nodePathForDebug">9.1</value>
       </record>
-      <record name="/10" javaclass="com.wm.util.Values">
+      <record name="/9" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -504,9 +487,9 @@
         <value name="nodePathNew">9</value>
         <number name="nodeIndex" type="Long">9</number>
         <number name="lineNumberForDebug" type="Long">16</number>
-        <value name="nodePathForDebug">9</value>
+        <value name="nodePathForDebug">10</value>
       </record>
-      <record name="/10/0" javaclass="com.wm.util.Values">
+      <record name="/9/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">17</number>
@@ -523,19 +506,19 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">9.0</value>
+        <value name="nodePathForDebug">10.0</value>
       </record>
-      <null name="/10/0/0"/>
-      <null name="/10/0/1"/>
-      <record name="/10/1" javaclass="com.wm.util.Values">
+      <null name="/9/0/0"/>
+      <null name="/9/0/1"/>
+      <record name="/9/1" javaclass="com.wm.util.Values">
         <value name="name">EXIT</value>
         <value name="itemType">CONTROLS</value>
-        <value name="nodePathForDebug">9.1</value>
+        <value name="nodePathForDebug">10.1</value>
       </record>
-      <record name="/11" javaclass="com.wm.util.Values">
+      <record name="/10" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
-        <value name="nodePathForDebug">10</value>
+        <value name="nodePathForDebug">11</value>
       </record>
     </record>
   </record>
