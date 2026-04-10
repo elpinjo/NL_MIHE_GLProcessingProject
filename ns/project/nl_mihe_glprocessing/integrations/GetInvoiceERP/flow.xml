@@ -307,9 +307,6 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/getInvoiceERPOutput;2;0" TO="/fromList;3;1">
-</MAPCOPY>
-
 <MAPCOPY FROM="/getInvoiceERPOutput;2;0/results;2;1" TO="/fromList;3;1">
 </MAPCOPY>
 </MAP>
