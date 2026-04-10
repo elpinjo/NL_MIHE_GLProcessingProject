@@ -148,7 +148,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jan.van.der.Lugt@ibm.com</value>
-    <value name="lastModifiedDate">1775840767120</value>
+    <value name="lastModifiedDate">1775840931646</value>
     <value name="displayName">VerifyInvoiceInERP</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -394,8 +394,10 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">7</value>
       </record>
       <null name="/7/0"/>
+      <null name="/7/1"/>
       <record name="/8" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
@@ -416,6 +418,8 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">8</value>
       </record>
       <record name="/9" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
@@ -433,7 +437,7 @@
         <value name="nodePathNew">9</value>
         <number name="nodeIndex" type="Long">9</number>
         <number name="lineNumberForDebug" type="Long">12</number>
-        <value name="nodePathForDebug">7</value>
+        <value name="nodePathForDebug">9</value>
       </record>
       <record name="/9/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -452,7 +456,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">7.0</value>
+        <value name="nodePathForDebug">9.0</value>
       </record>
       <null name="/9/0/0"/>
       <null name="/9/0/1"/>
@@ -462,7 +466,7 @@
         <value name="nodePathNew">9.1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">14</number>
-        <value name="nodePathForDebug">7.1</value>
+        <value name="nodePathForDebug">9.1</value>
       </record>
       <record name="/10" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
@@ -480,7 +484,7 @@
         <value name="nodePathNew">10</value>
         <number name="nodeIndex" type="Long">10</number>
         <number name="lineNumberForDebug" type="Long">15</number>
-        <value name="nodePathForDebug">8</value>
+        <value name="nodePathForDebug">10</value>
       </record>
       <record name="/10/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -499,7 +503,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">8.0</value>
+        <value name="nodePathForDebug">10.0</value>
       </record>
       <null name="/10/0/0"/>
       <null name="/10/0/1"/>
@@ -509,7 +513,7 @@
         <value name="nodePathNew">8.1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">15</number>
-        <value name="nodePathForDebug">8.1</value>
+        <value name="nodePathForDebug">10.1</value>
       </record>
       <record name="/11" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
@@ -527,7 +531,7 @@
         <value name="nodePathNew">9</value>
         <number name="nodeIndex" type="Long">9</number>
         <number name="lineNumberForDebug" type="Long">16</number>
-        <value name="nodePathForDebug">9</value>
+        <value name="nodePathForDebug">11</value>
       </record>
       <record name="/11/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -546,19 +550,19 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">9.0</value>
+        <value name="nodePathForDebug">11.0</value>
       </record>
       <null name="/11/0/0"/>
       <null name="/11/0/1"/>
       <record name="/11/1" javaclass="com.wm.util.Values">
         <value name="name">EXIT</value>
         <value name="itemType">CONTROLS</value>
-        <value name="nodePathForDebug">9.1</value>
+        <value name="nodePathForDebug">11.1</value>
       </record>
       <record name="/12" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
-        <value name="nodePathForDebug">10</value>
+        <value name="nodePathForDebug">12</value>
       </record>
     </record>
   </record>
