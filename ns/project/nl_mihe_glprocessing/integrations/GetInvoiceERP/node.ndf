@@ -72,7 +72,7 @@
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">AccountID</value>
+          <value name="field_name">InvoiceAccountID</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -131,7 +131,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jan.van.der.Lugt@ibm.com</value>
-    <value name="lastModifiedDate">1775843653073</value>
+    <value name="lastModifiedDate">1775844016680</value>
     <value name="displayName">GetInvoiceERP</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -158,6 +158,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <null name="/0/0"/>
       <null name="/0/1"/>
@@ -217,7 +218,7 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
-        <value name="nodePathForDebug">0</value>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -238,6 +239,8 @@
         <number name="lineNumberForDebug" type="Long">3</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
@@ -255,6 +258,7 @@
         <value name="nodePathNew">3</value>
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+        <value name="nodePathForDebug">3</value>
       </record>
       <record name="/3/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -272,6 +276,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">3.0</value>
       </record>
       <null name="/3/0/0"/>
       <null name="/3/0/1"/>
@@ -281,6 +286,7 @@
         <value name="nodePathNew">3.1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">6</number>
+        <value name="nodePathForDebug">3.1</value>
       </record>
       <record name="/4" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -299,6 +305,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">4</value>
       </record>
       <null name="/4/0"/>
       <null name="/4/1"/>
