@@ -97,7 +97,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jan.van.der.Lugt@ibm.com</value>
-    <value name="lastModifiedDate">1775843026278</value>
+    <value name="lastModifiedDate">1775843183743</value>
     <value name="displayName">GetInvoiceERP</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -166,6 +166,26 @@
         <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">List</value>
+          <value name="groupName">list</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">sizeOfList</value>
+          <value name="serviceName">pub.list:sizeOfList</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -178,15 +198,15 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <value name="nodePathNew">1</value>
-        <number name="nodeIndex" type="Long">1</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
       </record>
-      <record name="/1/0" javaclass="com.wm.util.Values">
+      <record name="/2/0" javaclass="com.wm.util.Values">
         <value name="name">EXIT</value>
         <value name="itemType">CONTROLS</value>
       </record>
-      <record name="/2" javaclass="com.wm.util.Values">
+      <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">2</number>
@@ -204,8 +224,8 @@
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
       </record>
-      <null name="/2/0"/>
-      <null name="/2/1"/>
+      <null name="/3/0"/>
+      <null name="/3/1"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
