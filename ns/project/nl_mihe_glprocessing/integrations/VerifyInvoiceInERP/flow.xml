@@ -2216,7 +2216,7 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">StatusCode</value>
+        <value name="field_name">InvoiceAccountID</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2224,10 +2224,16 @@
         <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
         <value name="is_public">false</value>
-        <value name="field_name">InvoiceAccount</value>
+        <value name="field_name">StatusCode</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2279,7 +2285,7 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">AccountID</value>
+        <value name="field_name">InvoiceAccountID</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2331,7 +2337,7 @@
 <MAPCOPY FROM="/InvoiceAmount;1;0" TO="/InvoiceAmount;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/AccountID;1;0" TO="/InvoiceAccount;1;0">
+<MAPCOPY FROM="/InvoiceAccountID;1;0" TO="/InvoiceAccountID;1;0">
 </MAPCOPY>
 </MAP>
 </INVOKE>
@@ -2551,7 +2557,7 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">StatusCode</value>
+        <value name="field_name">InvoiceAccountID</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2559,10 +2565,16 @@
         <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
         <value name="is_public">false</value>
-        <value name="field_name">InvoiceAccount</value>
+        <value name="field_name">StatusCode</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2834,7 +2846,7 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">StatusCode</value>
+        <value name="field_name">InvoiceAccountID</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2842,10 +2854,16 @@
         <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
         <value name="is_public">false</value>
-        <value name="field_name">InvoiceAccount</value>
+        <value name="field_name">StatusCode</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2902,7 +2920,7 @@
 </EXIT>
 </SEQUENCE>
 
-<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="((%/getInvoiceERPOutput/results/account_id_1%!=%/AccountID%))" FORM="IF">
+<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="((%/InvoiceAccountID%!=%/AccountID%))" FORM="IF">
 
   <!-- nodes -->
 
@@ -3117,7 +3135,7 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">StatusCode</value>
+        <value name="field_name">InvoiceAccountID</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -3125,10 +3143,16 @@
         <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
         <value name="is_public">false</value>
-        <value name="field_name">InvoiceAccount</value>
+        <value name="field_name">StatusCode</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
