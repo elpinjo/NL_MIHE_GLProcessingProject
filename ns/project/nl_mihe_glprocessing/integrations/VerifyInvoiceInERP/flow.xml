@@ -344,7 +344,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">dd/MM/yyyy</value>
+  <value name="xml">yyyy-MM-dd</value>
 </Values>
 </DATA>
 </MAPSET>
