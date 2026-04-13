@@ -7,3 +7,8 @@ runtimes:
     type: flow
     stepId: /4
     reference: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.WmPackageServiceProvider.project.nl_mihe_glprocessing.integrations:VerifyInvoiceInERP
+  - name: ProcessTransactionRecord
+    type: workflow
+    uid: fld06b3d2ed8d0430c88733418c9a1ce9c
+    stepId: a1
+    reference: project.nl_mihe_glprocessing.integrations:VerifyInvoiceInERP
