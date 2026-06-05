@@ -24,5 +24,9 @@ runtimes:
     reference: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.WmPackageServiceProvider.invoice.management.flows:getInvoice
   - name: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.rad.Invoice_.services:getInvoices
     type: flow
-    stepId: /0
+    stepId: /0/0/0
+    reference: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.WmPackageServiceProvider.invoice.management.flows:getCustomerInvoices
+  - name: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.rad.Invoice_.services:getInvoices
+    type: flow
+    stepId: /0/1/0
     reference: fld_113520462_stage00.projects.flf138fac18710452b89211b77f6c671f9.WmPackageServiceProvider.invoice.management.flows:getInvoices
